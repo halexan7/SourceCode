@@ -13,8 +13,6 @@ import java.io.File;
 public class SourceCode {
     public static void main(String[] args) throws IOException {
         int count = 0;
-//        File file = new File("C:\\Users\\hardw\\IdeaProjects\\Assignment2\\src\\example1.txt");
-//        Scanner input = new Scanner(file);
         List<String> list = Files.readAllLines(Path.of("C:\\Users\\hardw\\IdeaProjects\\" +
                 "Assignment2\\src\\example1.txt"), Charset.defaultCharset());
         for (int i = 0; i < list.size(); i++){
